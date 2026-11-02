@@ -1,0 +1,37 @@
+# ---- Gradle ----
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# ---- 本地配置（含本机 SDK 路径，禁止提交）----
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# ---- IDE ----
+.idea/
+*.iml
+.kotlin/
+captures/
+
+# ---- 构建产物 ----
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.flat
+app/release/
+app/debug/
+
+# ---- 原生构建 ----
+.externalNativeBuild/
+.cxx/
+
+# ---- 日志与临时文件 ----
+*.log
+*.hprof
+.DS_Store
+Thumbs.db

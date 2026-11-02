@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:autoMirrored="true">
+    <!--
+        Notification small icon — 单色矢量图（纯白填充 + 透明底）
+
+        ═══ 设计规范 ═══
+          - 纯 fill 路径，无 stroke（避免国产 ROM 描边渲染异常）
+          - 粗线条设计（状态栏图标仅 ~16px，细节会丢失）
+          - 形状：电池轮廓 + 内部闪电 = 电量监控
+    -->
+
+    <!-- 电池主体外框：用 4 条粗边框矩形模拟描边效果（纯 fill，兼容性最佳） -->
+    <!-- 上边框 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M8,4h8v1.5H8z"/>
+    <!-- 下边框 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M8,19.5h8V22H8z"/>
+    <!-- 左边框 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M7,5.5h2v14H7z"/>
+    <!-- 右边框 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M15,5.5h2v14h-2z"/>
+
+    <!-- 电池顶部凸起（正极头）-->
+    <path android:fillColor="#FFFFFF" android:pathData="M10,2h4v2h-4z"/>
+
+    <!-- 内部闪电符号：实心白色 -->
+    <path android:fillColor="#FFFFFF" android:pathData="M13,9l-2,4h2.5L11,17l1,-3.5H9.5L13,9z"/>
+</vector>

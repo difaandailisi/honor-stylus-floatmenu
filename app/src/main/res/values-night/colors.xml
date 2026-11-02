@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 深色主题：小组件颜色覆盖 -->
+    <color name="widget_bg">#FF2C2C2C</color>
+    <color name="widget_text_primary">#FFE0E0E0</color>
+    <color name="widget_text_secondary">#FF9E9E9E</color>
+    <color name="bar_bg">#FF444444</color>
+</resources>

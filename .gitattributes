@@ -1,0 +1,21 @@
+# 统一换行符，避免 Windows / macOS / Linux 之间产生无意义的全文件 diff
+* text=auto eol=lf
+
+# Windows 脚本必须保持 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# shell 脚本必须保持 LF，否则在 Linux/macOS 上会因 \r 报错
+*.sh text eol=lf
+gradlew text eol=lf
+
+# 二进制文件不做换行符转换
+*.jar binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ttf binary
+*.otf binary
+*.zip binary
+*.apk binary

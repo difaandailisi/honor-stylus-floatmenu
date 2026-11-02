@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">手写笔蓝牙电量分析</string>
+    <string name="widget_name">蓝牙电量卡片 (单设备)</string>
+    <string name="widget_multi_name">蓝牙电量卡片 (多设备)</string>
+    <string name="scan_device">扫描设备</string>
+    <string name="connect_device">连接设备</string>
+    <string name="disconnect">断开连接</string>
+    <string name="battery_level">电量</string>
+    <string name="charging">充电中</string>
+    <string name="not_charging">未充电</string>
+    <string name="no_device">未连接设备</string>
+    <string name="health_status">电池健康度</string>
+    <string name="accessibility_service_description">手写笔按键重映射服务，用于检测手写笔按钮点击并重映射为目标键值。开启后可在应用中配置原始键值与目标键值的映射关系。</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 静态PNG图标优先方案：前景层使用 drawable/logo/ 下的裁剪铅笔图 -->
+    <background android:drawable="@drawable/logo_ic_launcher_foreground_png"/>
+    <foreground android:drawable="@drawable/logo_ic_launcher_foreground_png"/>
+</adaptive-icon>

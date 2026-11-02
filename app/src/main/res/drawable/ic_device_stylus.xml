@@ -1,0 +1,37 @@
+<!-- 手写笔/铅笔图标 - 圆形橙色背景 + 白色铅笔（经典削尖造型） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- 圆形背景 橙色 -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M12,2C6.48,2 2,6.48 2,12s4.48,10 10,10s10,-4.48 10,-10S17.52,2 12,2z" />
+
+    <!-- 铅笔橡皮擦端（右上） -->
+    <path
+        android:fillColor="#F48FB1"
+        android:pathData="M17.5,6L19.5,8L18,9.5L16,7.5Z" />
+
+    <!-- 金属箍 -->
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M16,7.5L18,9.5L16.5,11L14.5,9Z" />
+
+    <!-- 铅笔笔身主体（白色，对角线从右上到左下） -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14.5,9L16.5,11L9.5,18L7.5,16Z" />
+
+    <!-- 削尖木杆（三角形，浅棕色，笔的写字端） -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M7.5,16L9.5,18L6,19.5Z" />
+
+    <!-- 石墨笔芯（深色小三角，在最尖端） -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M6,19.5L7,18.5L6.3,19Z" />
+</vector>

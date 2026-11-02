@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 小组件背景色（浅色主题默认值，深色见 values-night/） -->
+    <color name="widget_bg">#FFFFFFFF</color>
+    <color name="widget_text_primary">#FF212121</color>
+    <color name="widget_text_secondary">#FF757575</color>
+    <color name="bar_bg">#FFE0E0E0</color>
+
+    <!-- 状态颜色（深浅主题一致） -->
+    <color name="status_green">#FF4CAF50</color>
+    <color name="status_red">#FFF44336</color>
+    <color name="status_orange">#FFFF9800</color>
+    <color name="status_blue">#FF2196F3</color>
+    <color name="status_yellow">#FFFFEB3B</color>
+</resources>

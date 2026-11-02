@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 应用私有下载目录，供 FileProvider 安全分享 APK 安装文件 -->
+    <files-path
+        name="apk_download"
+        path="downloads/" />
+    <cache-path
+        name="apk_cache"
+        path="downloads/" />
+    <!-- Android 10+ 外部存储路径 -->
+    <external-files-path
+        name="external_download"
+        path="downloads/" />
+</paths>
