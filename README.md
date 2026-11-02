@@ -85,6 +85,8 @@ HandwritingPenBattery/
 │   └── crash/                       # 退出原因记录与崩溃监控
 ├── app/schemas/                     # Room 数据库 schema 导出
 ├── 代码逆向/                         # 荣耀手写笔悬浮菜单的静态分析与实测记录
+│   ├── README.md                    # 目录导航
+│   └── AI-CONTEXT.md                # 给 AI 读的结构化事实表（状态机 / 键值 / 陷阱清单）
 ├── gradle/wrapper/                  # Gradle wrapper（已内置）
 └── build.gradle.kts, settings.gradle.kts
 ```

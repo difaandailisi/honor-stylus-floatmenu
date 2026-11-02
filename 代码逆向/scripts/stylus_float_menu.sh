@@ -3,7 +3,7 @@
 #  stylus_float_menu.sh   v1.1.0
 #  荣耀手写笔「悬浮快捷菜单」诊断 / 显示 / 反相保活
 # -----------------------------------------------------------------------------
-#  v1.1.0 修订依据 = 真机实测（CGA-W00 / Android 16），详见 README.md 第 13 节：
+#  v1.1.0 修订依据 = 真机实测（CGA-W00 / Android 16），详见 代码逆向/01-悬浮菜单机制/README.md 第 13 节：
 #    · 判定只读 Settings.Global  -> 可伪造（已实测成功）
 #    · 本机 stylus_support_floating_capsule=null 仍可显示 -> 不再判 FAIL
 #    · am start-service 需签名级权限 -> shell 必失败（已降级为可选诊断）
@@ -317,7 +317,7 @@ stylus_float_menu.sh v1.1.0 —— 荣耀手写笔「悬浮快捷菜单」工具
   logcat               备用：抓日志（本机可能被限流）
   help                 本帮助
 
-实测要点（详见 README 第 13 节）：
+实测要点（详见 代码逆向/01-悬浮菜单机制/README.md 第 13 节）：
   · 只读 Settings.Global 的判定可以被伪造 -> 球能出来，但不等于拿到 120Hz
   · stylus_support_floating_capsule 在 Global 可能为 null，此时以实测为准
   · 球是否真显示要看 mViewVisibility，不能只看窗口数
